@@ -1,0 +1,15 @@
+AllCops:
+    Exclude:
+        - '**/Berksfile'
+
+Layout/EndOfLine:
+    Enabled: false
+
+Style/IfUnlessModifier:
+    Enabled: false
+
+Metrics/MethodLength:
+    Max: 15 
+
+Security/JSONLoad:
+    Enabled: false

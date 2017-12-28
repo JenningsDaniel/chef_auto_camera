@@ -1,11 +1,14 @@
-name 'auto_camera'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
+name 'chef_auto_camera'
+maintainer 'Daniel Jennings'
+maintainer_email 'daniel.j.jennings@gmail.com'
+license 'Apache-2.0'
 description 'Installs/Configures auto_camera'
 long_description 'Installs/Configures auto_camera'
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
+depends 'apt'
+depends 'git'
+supports 'debian'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when

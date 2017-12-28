@@ -1,0 +1,12 @@
+default['chef_auto_camera']['RPi_Cam_Web_Interface_Home'] =
+  '/home/vagrant/RPi_Cam_Web_Interface'
+default['chef_auto_camera']['owner'] = 'vagrant'
+default['chef_auto_camera']['group'] = 'vagrant'
+default['chef_auto_camera']['rpicamdir'] = 'html'
+default['chef_auto_camera']['webserver'] = 'nginx'
+default['chef_auto_camera']['webport'] = '80'
+default['chef_auto_camera']['user'] = 'user'
+default['chef_auto_camera']['webpassword'] = 'pwd'
+default['chef_auto_camera']['autostart'] = 'yes'
+default['chef_auto_camera']['jpglink'] = 'no'
+default['chef_auto_camera']['phpversion'] = '7'
